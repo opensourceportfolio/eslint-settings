@@ -1,4 +1,11 @@
 {
+  "env": {
+    "browser": true,
+    "node": true,
+    "amd": true,
+    "mocha": true,
+    "es6": true
+  },
 
   "rules": {
     //Possible Errors
@@ -93,6 +100,7 @@
     "no-unused-labels": [2], //disallow unused labels
     "no-useless-call": [2], //disallow unnecessary .call() and .apply()
     "no-useless-concat": [2], //disallow unnecessary concatenation of literals or template literals
+    "no-useless-escape": [2], //disallow unnecessary escape characters
     "no-void": [0], //disallow use of the void operator
     "no-warning-comments": [0], //disallow usage of configurable warning terms in comments //e.g. TODO or FIXME
     "no-with": [0], //disallow use of the with statement
@@ -156,9 +164,14 @@
     "jsx-quotes": [2, "prefer-double"], //specify whether double or single quotes should be used in JSX attributes
     "key-spacing": [2], //enforce spacing between keys and values in object literal properties
     "keyword-spacing": [2], //enforce spacing before and after keywords
-    "lines-around-comment": [0], //enforce empty lines around comments
     "linebreak-style": [0], //disallow mixed 'LF' and 'CRLF' as linebreaks
-    "max-nested-callbacks": [0], //specify the maximum depth callbacks can be nested
+    "lines-around-comment": [0], //enforce empty lines around comments
+    "max-depth": [0], //enforce a maximum depth that blocks can be nested
+    "max-len": [0], //enforce a maximum line length
+    "max-nested-callbacks": [0], //enforce a maximum depth that callbacks can be nested
+    "max-params": [0], //enforce a maximum number of parameters in function definitions
+    "max-statements": [0], //enforce a maximum number of statements allowed in function blocks
+    "max-statements-per-line": [0, { "max": 2 }], //enforce a maximum number of statements allowed per line
     "new-cap": [2], //require a capital letter for constructors
     "new-parens": [2], //disallow the omission of parentheses when invoking a constructor with no arguments
     "newline-after-var": [2], //require or disallow an empty newline after variable declarations
