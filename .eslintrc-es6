@@ -25,17 +25,22 @@
     "no-dupe-class-members": [2], //disallow duplicate name in class members
     "no-duplicate-imports": [2], //disallow duplicate module imports
     "no-new-symbol": [2], //disallow use of the new operator with the Symbol object
+    "no-restricted-imports": [0], //restrict usage of specified node imports
     "no-this-before-super": [2], //disallow use of this/super before calling super() in constructors.
+    "no-useless-computed-key": [2], //disallow unnecessary computed property keys in object literals
     "no-useless-constructor": [2], //disallow unnecessary constructor
+    "no-useless-rename": [2], //Disallow renaming import, export, and destructured assignments to the same name
     "no-var": [2], //require let or const instead of var
     "object-shorthand": [2], //require method and property shorthand syntax for object literals
     "prefer-arrow-callback": [2], //suggest using arrow functions as callbacks
-    "prefer-const": [0], //suggest using const declaration for variables that are never modified after declared
+    "prefer-const": [2], //suggest using const declaration for variables that are never modified after declared
     "prefer-reflect": [0], //suggest using Reflect methods where applicable
     "prefer-rest-params": [2], //suggest using the rest parameters instead of arguments
     "prefer-spread": [2], //suggest using the spread operator instead of .apply().
     "prefer-template": [2], //suggest using template literals instead of strings concatenation
     "require-yield": [2], //disallow generator functions that do not have yield
+    "rest-spread-spacing": [2], //Enforce spacing between rest and spread operators and their expressions
+    "sort-imports": [0], //Import Sorting
     "template-curly-spacing": [2], //enforce spacing around embedded expressions of template strings
     "yield-star-spacing": [2, "both"] //enforce spacing around the * in yield* expressions
 
