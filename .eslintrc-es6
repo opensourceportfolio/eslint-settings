@@ -14,7 +14,7 @@
     //ECMAScript 6
     //These rules are only relevant to ES6 environments.
 
-    "arrow-body-style": [0],  //require braces in arrow function body
+    "arrow-body-style": [0], //require braces in arrow function body
     "arrow-parens": [2], //require parens in arrow function arguments
     "arrow-spacing": [2], //require space before/after arrow function's arrow
     "constructor-super": [2], //verify calls of super() in constructors
